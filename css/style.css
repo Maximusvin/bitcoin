@@ -1,0 +1,301 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-image: url(../img/bg-offer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.menu {
+  color: #fff;
+  background-color: rgba(175, 167, 146, 0.18);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 18px 0 16px 0;
+  display: flex;
+}
+
+.logo-text {
+  font-size: 33px;
+  font-weight: 700;
+  margin-left: 22px;
+  margin-top: 17px;
+}
+
+.logo-text a {
+  color: #fff;
+}
+
+.exchange {
+  color: #ffcf59;
+}
+
+.main-nav-items {
+  margin: 47px 0 0 0;
+  display: flex;
+}
+
+.main-nav-item {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.08px;
+  margin-left: 60px;
+}
+
+.main-nav-item a {
+  color: #fff;
+}
+
+.main-nav-item a:hover {
+  color: #ffd572;
+  padding-bottom: 43px;
+  border-bottom: 4px solid #ffd572;
+}
+
+.offer {
+  margin-top: 145px;
+  color: #fff;
+  width: 488px;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  padding: 45px 108px 40px 98px;
+}
+
+/* .offer-item {
+  margin-left: 100px;
+} */
+
+.title {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.offer::before {
+  content: '';
+  display: block;
+  border: 2px solid #ffd572;
+  width: 64px;
+  position: relative;
+  left: -98px;
+  top: 20px;
+}
+
+.subscribe {
+  font-size: 33px;
+  font-weight: 400;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.subscribe span {
+  color: #ffcf59;
+}
+
+.btn {
+  display: block;
+  margin-top: 35px;
+  border: 3px solid #ffcf59;
+  border-radius: 100px;
+  width: 215px;
+  height: 51px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  padding: 11px 0;
+  color: #ffcf59;
+}
+
+.dot {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.dot-item {
+  text-align: center;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #bac9da;
+  margin-right: 29px;
+  margin-bottom: 31px;
+}
+
+.focus {
+  background: #ffcf59;
+}
+
+.focus::before {
+  content: '';
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  border: 2px solid #ffcf59;
+  border-radius: 50%;
+  margin-bottom: 23px;
+  position: relative;
+  left: -4px;
+  top: -4px;
+}
+
+.schedule-items {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.schedule-items h2 {
+  text-align: center;
+  color: #38404d;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.line {
+  display: block;
+  margin: 15px auto;
+  width: 64px;
+  height: 4px;
+  background-color: #ffcf59;
+}
+
+.img-schedule {
+  margin-top: 73px;
+  margin-bottom: 90px;
+}
+
+.purchase {
+  padding-top: 117px;
+  padding-bottom: 77px;
+  background-image: url(../img/bg-purchase.png);
+}
+
+.purchase-items h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.wrap {
+  margin-top: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.purchase-title {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.wrap-item {
+  font-size: 16px;
+  font-weight: 300;
+  width: 360px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  margin-bottom: 31px;
+  margin-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 22px;
+}
+
+/* .bitcoin {
+  background-image: url(../img/bitcoin.png);
+  background-repeat: no-repeat;
+  top: 50px;
+} */
+
+.bitcoin::before {
+  content: url(../img/bitcoin.png);
+  position: absolute;
+  left: 20px;
+  top: 16px;
+}
+
+.bitcoin {
+  position: relative;
+  padding-left: 51px;
+}
+
+.price {
+  position: relative;
+}
+
+.price::before {
+  content: 'min 3000 RUB';
+  position: absolute;
+  font-size: 12px;
+  font-weight: 300;
+  top: 65px;
+  right: -2px;
+}
+
+.footer {
+  padding-top: 212px;
+  padding-bottom: 180px;
+  background-image: url(../img/footer-bg.png);
+  background-size: cover;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  margin-left: 100px;
+}
