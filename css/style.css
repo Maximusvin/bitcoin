@@ -218,6 +218,7 @@ ul li {
   padding-top: 117px;
   padding-bottom: 77px;
   background-image: url(../img/bg-purchase.png);
+  background-size: cover;
 }
 
 .purchase-items h2 {
@@ -282,6 +283,54 @@ ul li {
   font-weight: 300;
   top: 65px;
   right: -2px;
+}
+
+.purchase-subtitle {
+  text-align: center;
+  color: #fff;
+  font-size: 33px;
+  font-weight: 300;
+  margin-top: 75px;
+  margin-bottom: 79px;
+}
+
+.purchase-subtitle span {
+  color: #ffcf59;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 80px;
+}
+
+.title-form {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 22px;
+}
+
+.input-form {
+  margin-right: 30px;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #fff;
+  width: 360px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 22px;
+  background-color: transparent;
+}
+
+.botton {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
